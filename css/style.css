@@ -682,6 +682,10 @@ main .latest__blog--div--content--cards--card .card--text .date {
 main .latest__blog--div--content--cards--card .card--text .date h2 {
   font-size: 40px;
 }
+main .latest__blog--div--content--cards--card .card--text .para {
+  font-size: 20px;
+  font-weight: 800;
+}
 main .latest__blog--div--content--cards--card .card--text .image__text {
   gap: 24px;
 }
