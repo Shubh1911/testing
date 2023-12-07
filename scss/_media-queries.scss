@@ -1,0 +1,322 @@
+@media only screen and (max-width: 1350px) {
+.container{
+  max-width:1200px;
+}
+
+header {
+  .slider{
+  .slide1,.slide2,.slide3{
+  height: 700px;
+
+  }
+  }
+  
+  .container{
+    .content{
+      top: -700px;
+    }
+
+}
+}
+}
+
+
+@media only screen and (max-width: 1200px) {
+  .container{
+    max-width:100%;
+  }
+  
+  header {
+    .slider{
+    .slide1,.slide2,.slide3{
+    height: 650px;
+  
+    }
+    }
+    
+    .container{
+      .content{
+        top: -650px;
+      }
+  
+  }
+  }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .home__heading{
+      font-size: 50px;
+      }
+      h1{
+      font-size: 40px; 
+      }
+      
+      h2{
+  
+        font-size: 30px;
+    
+      }
+      
+   h3{
+    font-size: 22px;
+   }
+   h4{
+    font-size: 18px;
+   }
+   p{
+    font-size: 14px;
+   }
+    .container{
+      max-width:560px;
+    }
+    
+    header {
+      .slider{
+      .slide1,.slide2,.slide3{
+      height: 650px;
+    
+      }
+      }
+      
+      .container{
+        .content{
+          top: -650px;
+        }
+    
+    }
+    .header__content{
+     margin-top: 100px !important;
+    .left__div{
+      width: 100% !important;
+    }
+  }
+
+  .horizontal__list {
+    ul {
+        gap: 15px !important; 
+    }
+  }
+  .nav__list{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    display: none;
+    position: absolute;
+   
+    right: -50px;
+    top: 70px;
+    gap: 30px !important;
+li{
+  margin: 10px 0px;
+  a{
+    color: white !important;
+  }
+}
+
+  }
+  #toggleBtn{
+      display: block !important;
+      cursor: pointer;
+  }
+    }
+
+    .services{
+      &__cards{
+        justify-content: space-between;
+        flex-wrap: wrap;
+        &--card{
+          width: 33%  !important;
+        }
+      }
+    }
+
+    .about__us{
+      &--section{
+        flex-wrap: wrap;
+      &--left,&--right {
+width: 100%  !important;
+
+&--content--cards{
+  width: 100% !important;
+        }
+      }
+    } 
+    }
+
+.our-Supporters--div-bottom{
+  flex-wrap: wrap;
+  gap: 25px;
+  div{
+    width: 30% !important;
+
+  }
+}
+
+
+.we__do__section{
+  flex-wrap: wrap;
+  &--left{
+    width: 100% !important;
+  }
+}
+.latest__blog--div--content{
+&--cards{
+
+  flex-wrap: wrap;
+  justify-content: center;
+  &--card{
+    width: 75% !important;
+  }
+
+}
+}
+
+.background__div{
+  padding: 20px 0px  !important;
+  text-align: center;
+}
+.events__cards{
+  flex-wrap: wrap;
+  &--card{
+    width: 100% !important;
+  }
+}
+.projects__top{
+  width: 100% !important;
+}
+
+.footer__content{
+  .logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  justify-content: normal !important;
+  gap: 40px !important;
+  flex-wrap: wrap;
+  .footer__lists{
+    // justify-content: space-around;
+    // gap: 40px;
+    width: 100% !important;
+  }
+  .footer__contact{
+    width: 100% !important;
+  }
+  .footer__services1{
+    margin: 0px 30px !important;
+  }
+
+}
+  }
+
+  @media only screen and (max-width: 560px) {
+    .container{
+      max-width:100%;
+    }
+    header {
+      .slider{
+      .slide1,.slide2,.slide3{
+      height: 500px;
+    
+      }
+      }
+      .header__content{
+        margin-top:50px !important;
+      }
+      .container{
+        .content{
+          top: -500px;
+        }
+    
+    }
+    .home__heading{
+      font-size: 40px;
+    }
+    }
+
+
+    .services{
+      &__cards{
+        justify-content: space-between;
+        flex-wrap: wrap;
+        &--card{
+          width: 100%  !important;
+        }
+      }
+    }
+
+    .about__us{
+      &--section{
+        flex-wrap: wrap;
+      &--left,&--right {
+width: 100%  !important;
+
+&--content--cards{
+  width: 100% !important;
+        }
+      }
+    } 
+    }
+
+.our-Supporters--div-bottom{
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+  div{
+    width: 33% !important;
+
+  }
+}
+
+
+.we__do__section{
+  flex-wrap: wrap;
+  &--left{
+    width: 100% !important;
+  }
+}
+.latest__blog--div--content{
+&--cards{
+
+  flex-wrap: wrap;
+  justify-content: center;
+  &--card{
+    width: 60% !important;
+  }
+
+}
+}
+
+.background__div{
+  h2{
+    font-size: 30px;
+  }
+  padding: 20px 0px  !important;
+  text-align: center;
+  .buttons{
+    flex-direction: column;
+  }
+}
+.events__cards{
+  flex-wrap: wrap;
+  &--card{
+    width: 100% !important;
+  }
+}
+.projects__top{
+  width: 100% !important;
+}
+
+.footer__content{
+  flex-wrap: wrap;
+  .footer__lists{
+    gap: 40px;
+    width: 50% !important;
+  }
+  .footer__contact{
+    width: 100% !important;
+  }
+
+}
+
+  }
