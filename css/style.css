@@ -156,11 +156,23 @@ h6 {
 }
 
 /* Styling for header */
-header .slider .slide1, header .slider .slide2, header .slider .slide3 {
-  background-image: url("../images/BannerImage.webp");
+header {
+  /* Your slider and other styles */
+}
+header .slider {
+  /* Your slider styles */
+  /* Placeholder styles for the slides */
+  /* Actual background images will be loaded via JavaScript */
+}
+header .slider .slide {
   height: 802px;
   background-size: 100%;
   background-repeat: no-repeat;
+  /* Define a placeholder background color or image */
+  background-color: #f0f0f0;
+}
+header .slider .lazy-loaded {
+  background-image: none; /* Remove placeholder background */
 }
 header .container {
   position: relative;
@@ -265,6 +277,10 @@ header .header__content .right__div--content p {
 }
 
 /* main starts from here */
+main {
+  width: 100%;
+  height: 100%;
+}
 main .services {
   margin: 27px 0px 59px 0px;
 }
