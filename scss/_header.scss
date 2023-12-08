@@ -2,27 +2,16 @@
 @use './typography';
 
 header {
-    /* Your slider and other styles */
-.slider {
-    /* Your slider styles */
-  
-  /* Placeholder styles for the slides */
-  .slide {
+    
+    .slider{
+
+    .slide{
+         background-image: url('../images/BannerImage.webp');
     height: 802px;
     background-size: 100%;
     background-repeat: no-repeat;
-    /* Define a placeholder background color or image */
-    background-color: #f0f0f0;
-  }
-  
-  /* Actual background images will be loaded via JavaScript */
-  .lazy-loaded {
-    background-image: none; /* Remove placeholder background */
- 
-}
-}
-  
-  
+    }
+    }
     
     .container{
     position: relative;
