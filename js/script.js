@@ -1,35 +1,5 @@
-// $(document).ready(function() {
-//   // Function to calculate the position of the second section
-//   function secondSectionPosition() {
-//     return $('.main section:nth-of-type(2)').offset().top;
-//   }
-
-//   $(window).scroll(function() {
-//     if ($(this).scrollTop() > secondSectionPosition()) {
-//       $('.contact-button').fadeIn();
-//     } else {
-//       $('.contact-button').fadeOut();
-//       $('.contact-form').fadeOut();
-//     }
-//   });
-
-//   $('#contactBtn').click(function() {
-//     $('.contact-form').fadeToggle();
-//     $('#contactBtn').fadeOut();
-//   });
-
-//   $('#contactForm').submit(function(e) {
-//     e.preventDefault();
-//     // Handle form submission here
-//     // Reset form after submission
-//     $('#contactForm')[0].reset();
-//     $('.contact-form').fadeOut();
-//     // You can add a success message or other actions upon successful submission
-//   });
-
-//   // Close button functionality
-//   $('.contact-form .close-btn').click(function() {
-//     $('.contact-form').fadeOut();
-//     $('#contactBtn').fadeToggle();
-//   });
-// });
+document.addEventListener('DOMContentLoaded',function(){const e=document.getElementById('toggleBtn'),t=document.querySelector('.nav__list');e.addEventListener('mousedown',function(e){e.preventDefault(),t.style.display='none'===t.style.display?'block':'none'},{passive:!0});function n(){return $('.services').offset().top}$(window).scroll(function(){($(this).scrollTop()>n()?$('.contact-button').fadeIn():($('.contact-button').fadeOut(),$('.contact-form').fadeOut()))}),$('#contactBtn').click(function(){$('.contact-form').fadeToggle(),$('#contactBtn').fadeOut()}),$('#contactForm').submit(function(e){e.preventDefault(),$('#contactForm')[0].reset(),$('#contactForm').fadeOut(function(){$('.thank-you-message').fadeIn()})}),$('.contact-form .close-btn').click(function(){$('.contact-form').fadeOut(),$('#contactBtn').fadeToggle()}),$('.slider').slick({dots:!0,infinite:!0,speed:300,autoplay:!1,autoplaySpeed:1e3,slidesToShow:1,adaptiveHeight:!0,arrows:!0,responsive:[{breakpoint:1024,settings:{slidesToShow:3,slidesToScroll:1,infinite:!0,dots:!0}},{breakpoint:992,settings:{slidesToShow:1,slidesToScroll:1}},{breakpoint:768,settings:{slidesToShow:1,slidesToScroll:1}}]})});
+function closeForm() {
+    const navList = document.querySelector('.nav__list');
+    navList.style.display = 'none';
+  }
